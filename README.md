@@ -67,6 +67,11 @@ output finished. out put 1846 lines
 
 ```
 
+## 4. mgf file extraction
+Extract specific MS/MS spectra from mgf file.
+
+---
+
 Chinese note
 
 有三种方式导出 Mascot 的 .csv 文件
@@ -74,3 +79,7 @@ Chinese note
 1. extract-input-folder.py 输入目录名称, 自动导出该目录下所有文件至 combined.csv
 2. extract-all.py 导出脚本当前目录下的所有文件至 combined.csv
 3. extract.py 手动输入脚本当前目录下, 想要合并的csv文件.
+
+mgf 文件提取
+
+4. mgf_identified.py 提取 mgf 文件中的某些特定谱图(如被鉴定到的谱图, 通过 csv 文件输入指定).
